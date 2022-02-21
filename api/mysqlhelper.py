@@ -1,5 +1,4 @@
 import mysql.connector,json;
-
 from mysql.connector.cursor import MySQLCursorPrepared
 
 class My():

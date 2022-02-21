@@ -1,9 +1,11 @@
-import random, os, inspect, subprocess, re, os, requests, unicodedata, time, traceback, tempfile;
+import random, os, sys, inspect, subprocess, re, os, requests, unicodedata, time, traceback, tempfile;
 
 from selenium import webdriver;
 from selenium.webdriver.common.keys import Keys;
 
 CURRENTDIR = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())));
+sys.path.insert(0, CURRENTDIR);
+
 
 from chromedriver_helper import *;
 

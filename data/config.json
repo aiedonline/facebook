@@ -1,3 +1,4 @@
 { 
-    "database" : { "host" : "localhost", "user" : "ppg", "password" : "123456Aa!", "database" : "face" }
+    "database" : { "host" : "localhost", "user" : "ppg", "password" : "123456Aa!", "database" : "face2" },
+    "bot" : {"path_tmp_dir" : "/tmp/"}
 }
